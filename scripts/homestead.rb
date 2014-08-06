@@ -1,7 +1,8 @@
 class Homestead
   def Homestead.configure(config, settings)
     # Configure The Box
-    config.vm.box = "laravel/homestead"
+    # config.vm.box = "laravel/homestead"
+    config.vm.box = "antoniofrignani/laravel-homestead-settler-32"
     config.vm.hostname = "homestead"
 
     # Configure A Private Network IP
